@@ -1033,7 +1033,23 @@ section {
     .hero-buttons {
         justify-content: center;
     }
-    
+
+       /* Move profile picture above buttons on mobile */
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-image {
+        order: -1;
+        margin-bottom: var(--spacing-6);
+    }
+
+    /* Make certifications/achievements scroll faster on mobile */
+    .cert-track {
+        animation: scroll 15s linear infinite;
+    }
+  
     .btn {
         width: 100%;
         max-width: 200px;
@@ -1087,3 +1103,4 @@ section {
         flex: 0 0 280px;
     }
 }
+
