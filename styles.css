@@ -1043,11 +1043,7 @@ section {
     .hero-image {
         order: -1;
         margin-bottom: var(--spacing-4);
-    }
-
-    /* Make certifications/achievements scroll faster on mobile */
-    .cert-track {
-        animation: scroll 30s linear infinite;
+         margin-top: var(--spacing-8); 
     }
   
     .btn {
@@ -1103,6 +1099,7 @@ section {
         flex: 0 0 280px;
     }
 }
+
 
 
 
