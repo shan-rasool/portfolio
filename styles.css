@@ -1047,7 +1047,7 @@ section {
 
     /* Make certifications/achievements scroll faster on mobile */
     .cert-track {
-        animation: scroll 4s linear infinite;
+        animation: scroll 8s linear infinite;
     }
   
     .btn {
@@ -1103,6 +1103,7 @@ section {
         flex: 0 0 280px;
     }
 }
+
 
 
 
