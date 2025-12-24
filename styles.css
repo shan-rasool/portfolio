@@ -643,7 +643,7 @@ section {
 .cert-track {
     display: flex;
     gap: var(--spacing-6);
-    animation: scroll 50s linear infinite;
+    animation: scroll 60s linear infinite;
 }
 
 .cert-item {
@@ -1099,6 +1099,7 @@ section {
         flex: 0 0 280px;
     }
 }
+
 
 
 
