@@ -640,6 +640,16 @@ section {
     padding: var(--spacing-4) 0;
 }
 
+.cert-item {
+    flex: 0 0 300px;
+}
+
+@media (max-width: 768px) {
+    .cert-item {
+        flex: 0 0 240px;
+    }
+}
+
 .cert-track {
     width: max-content;
 }
@@ -1103,6 +1113,7 @@ section {
         flex: 0 0 280px;
     }
 }
+
 
 
 
