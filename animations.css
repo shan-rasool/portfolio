@@ -116,11 +116,17 @@
 }
 
 @keyframes scroll {
-    0% {
+    from {
         transform: translateX(0);
     }
-    100% {
-        transform: translateX(-100%);
+    to {
+        transform: translateX(calc(-100% + 100vw));
+    }
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX(-50%);
     }
 }
 
@@ -591,4 +597,5 @@
     }
     
 }
+
 
